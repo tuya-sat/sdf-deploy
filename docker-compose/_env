@@ -4,8 +4,8 @@
 OPEN_API=https://openapi.tuyacn.com
 
 ## [必填] 开发者配置
-DEVELOPER_CODE=
-DEVELOPER_KEY=
+APP_KEY=
+SECRET_KEY=
 
 # [可选] 自定义接口服务
 CUSTOM_API_URL=

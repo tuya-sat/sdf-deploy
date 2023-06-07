@@ -17,8 +17,8 @@ services:
       - redis
     container_name: sdf-fgw
     environment:
-      DEVELOPER_CODE: ${DEVELOPER_CODE}
-      DEVELOPER_KEY: ${DEVELOPER_KEY}
+      DEVELOPER_CODE: ${APP_KEY}
+      DEVELOPER_KEY: ${SECRET_KEY}
       HIGHWAY_URL: ${OPEN_API}
       REDIS_HOST: redis
       REDIS_PORT: 6379
